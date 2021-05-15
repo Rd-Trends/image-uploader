@@ -1,0 +1,91 @@
+.wrapper {
+  background-color: var(--light-grey-background);
+  border-radius: 12px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 2rem 1.5rem;
+  color: var(--primary-text-color);
+  max-width: 80vw;
+}
+
+.imageform form,
+.info,
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.info h1 {
+  text-align: center;
+}
+
+.info p {
+  padding: 1rem 1rem 2rem;
+  text-align: center;
+}
+
+.draganddrop {
+  padding: 1rem;
+  background-color: var(--light-greyish-blue);
+  background-image: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='100%25' height='100%25' fill='none' stroke='lightblue' stroke-width='4' stroke-dasharray='6%2c 14' stroke-dashoffset='0' stroke-linecap='square'/%3e%3c/svg%3e");
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 400px;
+  max-width: 70vw;
+}
+
+.draganddrop img {
+  padding: 1rem;
+  
+}
+
+.draganddrop p {
+  padding: 1rem;
+  text-align: center;
+}
+
+.label,
+.deletefile {
+  display: inline-block;
+  background: var(--blue);
+  font-size: 15px;
+  padding: 0.7rem 1.2rem;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+.label:hover {
+  background-color: transparent;
+  color: var(--blue);
+  border: 1px solid var(--blue);
+}
+
+.input {
+  display: none;
+}
+
+.imageform form > p {
+  padding: 1rem;
+}
+
+.imagepreview {
+  width: 100%;
+  border-radius: 30px;
+}
+
+.deletefile {
+  background-color: rgb(255, 60, 0);
+  font-size: 12px;
+  padding: 0.7rem 1rem;
+  align-self: center;
+  width: 6rem;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+}
